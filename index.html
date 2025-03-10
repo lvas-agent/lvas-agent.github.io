@@ -217,6 +217,64 @@
 </section> -->
 <!-- End image carousel -->
 
+<!-- Video Comparison Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Comparison with Baseline</h2>
+      <p class="subtitle has-text-centered">Our method (right) achieves better audio-visual alignment compared to baseline methods (left)</p>
+      
+      <!-- Video comparison rows -->
+      <div class="columns is-centered mb-6">
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">MMAudio</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/mmaudio_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Prompt: Wind, Tanks moving, Tanks firing</p>
+        </div>
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">Our Method</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/lvas_agent_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Our method achieves better temporal-semantic alignment</p>
+        </div>
+      </div>
+      
+      <div class="columns is-centered mb-6">
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">Baseline</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/carousel3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Limited sound diversity and contextual awareness</p>
+        </div>
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">Our Method</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Rich sound design with context-aware audio elements</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video comparison section -->
+
+<style>
+.comparison-video {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+
 <!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
@@ -237,42 +295,8 @@
 </section>
 <!-- End youtube video -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -282,7 +306,7 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
