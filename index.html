@@ -96,7 +96,7 @@
                       <span>Supplementary</span>
                     </a>
                   </span> -->
-                  
+
                   <!-- Github link -->
                   <span class="link-block">
                     <a href="https://github.com/ZYH-Lightyear/LVAS" target="_blank"
@@ -275,7 +275,45 @@
           <p class="has-text-centered mt-2">Our method achieves better temporal-semantic alignment</p>
         </div>
       </div>
+
+      <div class="columns is-centered mb-6">
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">MMAudio</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/mmaudio_train.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Prompt: Train passing and Train whistle</p>
+        </div>
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">Our Method</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/lvas_agent_train.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">There is a clear distinction between the sound effects of high-speed rail operation and steam train operation, with subtle background sounds (Intermittent train whistle).</p>
+        </div>
+      </div>
       
+      <div class="columns is-centered mb-6">
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">MMAudio</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/mmaudio_car_race.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Prompt: Human Voice, Car racing</p>
+        </div>
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">Our Method</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/lvas_agent_car_race.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Audio types are more diverse and accurate: there are obvious audience voices, diverse vehicle driving sounds, and obvious vehicle collision sounds</p>
+        </div>
+      </div>
+
       <div class="columns is-centered mb-6">
         <div class="column is-5">
           <h4 class="title is-5 has-text-centered">MMAudio</h4>
@@ -294,6 +332,26 @@
           <p class="has-text-centered mt-2"> Reflect more sound effects. </p>
         </div>
       </div>
+
+      <div class="columns is-centered mb-6">
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">MMAudio</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/mmaudio_monster.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2"></p>
+        </div>
+        <div class="column is-5">
+          <h4 class="title is-5 has-text-centered">Our Method</h4>
+          <video class="comparison-video" controls muted loop height="100%">
+            <source src="static/videos/lvas_agent_monster.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="has-text-centered mt-2">Completed with the explosion, there is a running sound when the train passes by</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -355,15 +413,15 @@
     <div class="container is-max-desktop content">
       <!-- <h2 class="title">BibTeX</h2> -->
       <pre><code>
-        @misc{zhang2025longvideoaudiosynthesismultiagent,
+      @misc{zhang2025longvideoaudiosynthesismultiagent,
         title={Long-Video Audio Synthesis with Multi-Agent Collaboration}, 
         author={Yehang Zhang and Xinli Xu and Xiaojie Xu and Li Liu and Yingcong Chen},
         year={2025},
         eprint={2503.10719},
         archivePrefix={arXiv},
         primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2503.10719}, 
-  }</code></pre>
+        url={https://arxiv.org/abs/2503.10719},
+      }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
